@@ -7,10 +7,10 @@ while True:
         break
 ans = n
 while True:
-    if(ans == 0):
+    if ans == 0:
         break
     before = ans
-    ans = ans - ((ans) * (ans) - n) / (2 * (ans))
-    if(ans - before < delta and before - ans < delta ):
+    ans = ans - (ans * ans - n) / (2 * ans)
+    if ans - before < delta and before - ans < delta:
         break
 print(ans)
