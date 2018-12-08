@@ -1,5 +1,5 @@
 before = 0
-delta = 0.000000000000001
+delta = 1e-10
 while True:
     n = input("Please Input Number: ")
     n = float(n)
